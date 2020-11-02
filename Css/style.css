@@ -1,7 +1,7 @@
 body{background-color:#f2f2f2}
 
 nav {
-	margin: 50px;
+	margin: 27px auto 0;
 	position: relative;
 	width: 590px;
 	height: 50px;
@@ -19,8 +19,9 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	color: white;
+	
 	cursor: pointer;
+	margin: 20px;
 }
 nav .animation {
 	position: absolute;
