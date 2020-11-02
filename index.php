@@ -9,7 +9,6 @@
 <nav>
 	<a href="#">Home</a>
 	<a href="exam.html">Schoolworks</a>
-	<a href="#">Activity</a>
 	<a href="#">About</a>
 	<a href="#">Contact</a>
 	<div class="animation start-home"></div>
