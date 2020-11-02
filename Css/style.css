@@ -12,7 +12,7 @@ nav {
 nav a {
 	line-height: 50px;
 	height: 100%;
-	font-size: 15px;
+	font-size: 18px;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
@@ -21,7 +21,7 @@ nav a {
 	text-align: center;
 	
 	cursor: pointer;
-	margin: 20px;
+	margin: 10px;
 }
 nav .animation {
 	position: absolute;
