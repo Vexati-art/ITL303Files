@@ -1,7 +1,8 @@
 body{background-color:#f2f2f2}
 
 nav {
-	margin: 35px auto 0;
+	margin: 27px auto 0;
+	padding: 20px;
 	position: relative;
 	width: 590px;
 	height: 50px;
@@ -55,11 +56,7 @@ nav .start-exam, a:nth-child(2):hover~.animation {
 	left: 100px;
 	background-color: #e74c3c;
 }
-nav .start-activity, a:nth-child(3):hover~.animation {
-	width: 100px;
-	left: 210px;
-	background-color: #3498db;
-}
+
 nav .start-about, a:nth-child(4):hover~.animation {
 	width: 160px;
 	left: 310px;
