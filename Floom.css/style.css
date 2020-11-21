@@ -1,0 +1,193 @@
+body{
+    margin: auto o;
+    background-color: rgb(243, 209, 230);
+    background-size: auto;
+
+}
+
+
+
+.path {
+    animation: bounce 2s linear;
+   
+
+}
+  
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-15px);
+    }
+    70%{
+        transform: translateY(15px);
+    }
+    90%{
+        transform: translateY(4px);
+    
+    }
+}
+
+.wrapper {
+  margin-top: 25px;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 3.5em;
+  margin-right: 10px
+}
+#btn {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: rgb(116, 91, 8);
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+#btn-text {
+  margin-top: -35px;
+  text-align: center;
+}
+#btn-text a {
+  color:  rgb(116, 91, 8);
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.4em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.wrapper:hover #btn {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke:  rgb(116, 91, 8);
+}
+
+#flow{
+  display: flex;
+
+}
+.Box {
+display: block;
+margin-left: 8em;
+width: 1200;
+height: 500;
+
+   
+
+}
+
+ 
+.pink{
+  width: 10px;
+  height: 10px;
+  animation: bounce 3s infinite;
+}
+
+.pink:hover {
+  stroke: rgb(243, 3, 163);
+  
+}
+
+  @keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(15px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    
+    }
+}
+ 
+  
+ 
+
+.blue{
+  width: 10px;
+  height: 10px;
+  animation: bounce2 3s infinite;
+}
+
+.blue:hover {
+  stroke: rgb(1, 15, 209);
+  
+}
+
+@keyframes bounce2{
+  90%,50%,80%,to{
+      transform: translateY(0);
+  }
+  70%{
+      transform: translateY(15px);
+  }
+  40%{
+      transform: translateY(-15px);
+  }
+  20%{
+      transform: translateY(4px);
+  
+  }
+}
+
+.violet{
+  width: 10px;
+  height: 10px;
+  animation: bounce3 3s infinite;
+  
+}
+
+.violet:hover {
+  stroke: rgb(170, 0, 162);
+  
+}
+
+@keyframes bounce3{
+  90%,50%,80%,to{
+      transform: translateY(0);
+  }
+  70%{
+      transform: translateY(15px);
+  }
+  40%{
+      transform: translateY(15px);
+  }
+  20%{
+      transform: translateY(-4px);
+  
+  }
+}
+
+.yellow{
+  width: 10px;
+  height: 10px;
+  animation: bounce4 3s infinite;
+}
+
+.yellow:hover {
+  stroke: rgb(182, 170, 3);
+  
+}
+@keyframes bounce4{
+  20%,50%,80%,to{
+      transform: translateY(0);
+  }
+  40%{
+      transform: translateY(-15px);
+  }
+  70%{
+      transform: translateY(-15px);
+  }
+  90%{
+      transform: translateY(-4px);
+  
+  }
+}
