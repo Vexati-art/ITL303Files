@@ -38,6 +38,7 @@ body {
 
 .outer-div,
 .inner-div {
+  margin-top: 50px;
   height: 600px;
   width: 300px;
   margin: 0 auto;
@@ -97,7 +98,7 @@ body {
   position: relative;
   height: 150px;
   width: $card-width;
-  background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80")
+  background: url("https://scontent.fmnl9-3.fna.fbcdn.net/v/t39.30808-6/317431565_6301109426584984_8758943788538294585_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHNkNtp4i1nOBQLUBzhuu16s7PV1jwGDJWzs9XWPAYMlfppCc2865Ca_i4qDpEE4Ujk87CJsMIXi_fVQCI_EDHz&_nc_ohc=F4cIFAk_r0oAX9L-jgH&_nc_ht=scontent.fmnl9-3.fna&oh=00_AfDpk6PPcBKXuKhO_MDJyPQd95qKarwy4n4s1wxzBWfaBg&oe=63E7421B")
     no-repeat;
   background-size: cover;
   backface-visibility: hidden;
