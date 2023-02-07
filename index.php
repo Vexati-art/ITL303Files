@@ -8,7 +8,7 @@
   <nav>
     <a href="#">HOME</a>
     <a href="Works.html">Schoolworks</a>
-    <a href="#">About</a>
+    <a href="About.html">About</a>
     <div id="indicator"></div>
   </nav>
   
