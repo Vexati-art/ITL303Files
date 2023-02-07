@@ -45,7 +45,7 @@ body {
 }
 
 .outer-div {
-  perspective: 900px;
+  perspective: 500px;
   perspective-origin: 50% calc(50% - 18em);
 }
 
