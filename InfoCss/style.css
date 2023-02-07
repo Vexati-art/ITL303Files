@@ -3,7 +3,7 @@ $white: #fff;
 $red: tomato;
 $standard: 10px;
 $card-height: 450px;
-$card-width: 300px;
+$card-width: 100px;
 
 body {
   height: 100vh;
