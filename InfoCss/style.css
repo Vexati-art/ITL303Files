@@ -38,6 +38,7 @@ body {
 
 .outer-div,
 .inner-div {
+  margin-top: 10em;
   height: 300px;
   width: 150px;
   margin: 0 auto;
