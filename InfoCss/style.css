@@ -1,70 +1,131 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
 body{
-  font-family: Montserrat, sans-serif;
-  background: #28223f;
-}
-.container{
-  user-select: none;
-  margin: 100px auto;
-  background: #231e39;
-  color: #b3b8cd;
-  border-radius: 5px;
-  width: 350px;
-  text-align: center;
-  box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
-}
-.cover-photo{
-  background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
-  height: 160px;
-  width: 100%;
-  border-radius: 5px 5px 0 0;
-}
-.profile{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  margin: 93px 0 0 -175px;
-  border: 1px solid #1f1a32;
-  padding: 7px;
-  background: #292343;
-}
-.profile-name{
-  font-size: 25px;
-  font-weight: bold;
-  margin: 27px 0 0 120px;
-}
-.about{
-  margin-top: 35px;
-  line-height: 21px;
-}
-button{
-  margin: 10px 0 40px 0;
-}
-.msg-btn, .follow-btn{
-  background: #03bfbc;
-  border: 1px solid #03bfbc;
-  padding: 10px 25px;
-  color: #231e39;
-  border-radius: 3px;
-  font-family: Montserrat, sans-serif;
-  cursor: pointer;
-}
-.follow-btn{
-  margin-left: 10px;
-  background: transparent;
-  color: #02899c;
-}
-.follow-btn:hover{
-  color: #231e39;
-  background: #03bfbc;
-  transition: .5s;
-}
-.container i{
-  padding-left: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: .5s;
-}
-.container i:hover{
-  color: #03bfbc;
-}
+    font-family: Montserrat, sans-serif;
+    background: #8644ff;
+  }
+  .container{
+    user-select: none;
+    background: #070027;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 350px;
+    margin: 180px auto;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(7, 8, 15, 0.75);
+  }
+  .cover-photo{
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 1px solid #03bfbc;
+    padding: 7px;
+    background: #292343;
+  }
+  .profile-name{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 27px 0 0 135px;
+  }
+  .about{
+    margin-top: 35px;
+    line-height: 21px;
+  }
+  button{
+    margin: 10px 0 40px 0;
+  }
+  .msg-btn, .follow-btn{
+    background: #03bfbc;
+    border: 1px solid #03bfbc;
+    padding: 10px 25px;
+    color: #231e39;
+    border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+  }
+  .follow-btn{
+    margin-left: 10px;
+    background: transparent;
+    color: #f2fdff;
+  }
+  .follow-btn:hover{
+    color: #000000;
+    background: #03bfbc;
+    transition: .5s;
+  }
+  
+
+  .footer-social-links{
+    font-size: 14px;
+    text-align: center;
+  
+  }
+  .footer-social-links a{
+      width: 25px;
+      height: 25px;
+      line-height: 25px !important;
+      position: relative;
+      margin: 0 5px;
+      text-align: center;
+      display: inline-block;
+      color: #ffffff;
+      
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  }
+  .footer-social-links a i,
+  .footer-social-links a span{
+      position: relative;
+      top: 2px;
+      left: 1px; 
+  }
+  .footer-social-links a:before{
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid #03bfbc;
+      
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      
+  }
+  .footer-social-links a:hover{
+      color: rgba(0, 0, 0, 0.897);
+  }
+  .footer-social-links a:hover:before{
+      background: #03bfbc;
+  }
+
+  .container a{
+    font-size: 15px;
+    margin-bottom: 35px;
+
+  }
